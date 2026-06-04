@@ -222,12 +222,3 @@
         };
     };
 };
-
-
-        Open_parenthesis_opt: Open_parenthesis_opt {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LBKT &sl 5>;
-            label = "OPEN_PARENTHESIS_OPT";
-            tap-ms = <0>;
-        };
