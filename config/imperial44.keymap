@@ -103,15 +103,15 @@
 
         open_fig_bracers: open_fig_bracers {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LBRC &kp RBRC &sl 5>;
-            label = "OPEN_FIG_BRACERS";
+            #binding-cells = <0>;{}
+            bindings = <&kp LBRC &sl 5>;
+            label = "OPEN_FIG_BRACERS";{}
         };
 
         add_interpolation_sym: add_interpolation_sym {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ARROW &kp DOLLAR &kp RIGHT_ARROW &tog 0>;
+            bindings = <&kp LEFT_ARROW &kp DOLLAR &kp RIGHT_ARROW &kp RIGHT_ARROW &tog 0>;
             label = "ADD_INTERPOLATION_SYM";
         };
 
@@ -153,7 +153,7 @@
             bindings = <
 &kp LPAR  &kp RPAR   &kp F1  &kp F2   &kp F3  &kp F4                            &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp LPAR           &kp F12
 &kp LBKT  &kp RBKT   &kp F5  &kp F6   &kp F7  &kp F8                            &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &mt RSHFT LBKT     &kp RBKT
-&kp LBRC  &kp RBRC   &kp F9  &kp F10  &kp F11 &kp F12       &trans    &trans    &trans     &kp LC(LEFT)  &trans    &kp LC(RIGHT)  &open_fig_bracers  &trans
+&trans    &kp RBRC   &kp F9  &kp F10  &kp F11 &kp F12       &trans    &trans    &trans     &kp LC(LEFT)  &trans    &kp LC(RIGHT)  &open_fig_bracers  &trans
                                       &trans  &trans        &trans    &trans    &trans     &trans
             >;
         };
