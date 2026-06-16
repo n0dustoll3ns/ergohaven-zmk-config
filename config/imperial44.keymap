@@ -152,7 +152,7 @@
 
             bindings = <
 &kp LPAR  &kp RPAR          &kp F1       &kp F2        &kp F3        &kp F4                            &kp PG_UP  &kp HOME        &kp UP         &kp END         &kp LPAR           &kp F12
-&kp LBKT  &mt LSHIFT RBKT   &mt LWIN F5  &mt LALT F6   &mt LCTRL F7  &kp F8                            &kp PG_DN  &mt RCTRL LEFT  &mt RALT DOWN  &mt RWIN RIGHT  &mt RSHFT LBKT     &kp RBKT
+&kp LBKT  &mt LSHIFT RBKT   &mt LWIN F5  &mt LALT F6   &mt LCTRL F7  &kp F8                            &kp PG_DN  &kp LEFT        &kp DOWN       &kp RIGHT       &mt RSHFT LBKT     &kp RBKT
 &trans    &kp RBRC          &kp F9       &kp F10       &kp F11       &kp F12       &trans    &trans    &trans     &kp LC(LEFT)    &trans         &kp LC(RIGHT)   &open_fig_bracers  &trans
                                                        &trans        &trans        &trans    &trans    &trans     &trans
             >;
